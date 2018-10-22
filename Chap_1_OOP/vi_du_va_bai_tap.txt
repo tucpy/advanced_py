@@ -1,0 +1,114 @@
+VD 1: Class hình tam giác
+    - biến thành phần: các cạnh a, b, c
+    - hàm khởi tạo
+    - hàm tính chu vi
+    - hàm tính diện tích
+
+BT 1a: Class hình tròn
+    - biến thành phần: bán kính r
+    - hàm khởi tạo
+    - hàm tính chu vi
+    - hàm tính diện tích    
+
+BT 1b: Class hình chữ nhật
+    - biến thành phần: chiều dài, chiều rộng
+    - hàm khởi tạo
+    - hàm tính chu vi
+    - hàm tính diện tích    
+
+BT 2: Class Nhân viên
+    - biến class: mức lương cơ bản = 1,300,000 VNĐ
+    - biến thành phần: id (cho phép cấp tự động), họ tên, ngày sinh, giới tính, hệ số lương
+    - hàm khởi tạo 1: id, họ tên, ngày sinh, giới tính, hệ số lương
+    - hàm khởi tạo 2: id, họ tên, ngày sinh
+    - hàm Tính lương: tiền lương = mức lương cơ bản x hệ số lương
+    - hàm In chuỗi thông tin
+    - hàm Tăng hệ số lương: hệ số lương mới (có kiểm tra hệ số lương mới > cũ)
+
+*BT 3: Class Nhân viên (viết thêm)
+    - Yêu cầu: mỗi khi tăng lương cho nhân viên thì ghi nhận lại ngày tăng, hệ số lương cũ, 
+    hệ số lương mới
+    - Hàm In ra quá trình tăng lương (nếu có)
+
+VD 2: Class Con người
+    - biến thành phần: họ tên, ngày sinh, giới tính
+    - hàm khởi tạo
+    - hàm In chuỗi thông tin
+
+VD 3: Class Nhân viên kế thừa class Con người
+    - biến class: mức lương cơ bản = 1,300,000 VNĐ
+    - biến thành phần: id, họ tên, ngày sinh, giới tính, hệ số lương
+    - hàm khởi tạo
+    - hàm Tính lương: tiền lương = mức lương cơ bản x hệ số lương
+    - hàm In chuỗi thông tin
+
+BT 4: Class Sinh viên kế thừa class Con người
+    - biến thành phần: id, họ tên, ngày sinh, giới tính, điểm trung bình
+    - hàm khởi tạo
+    - hàm Xếp loại học lực: dựa vào điểm trung bình --> Giỏi/Khá,Trung bình/Yếu
+    - hàm In chuỗi thông tin
+
+VD 4: Class Hình
+    - biến thành phần: tên hình
+    - hàm khởi tạo
+    - hàm In chuỗi thông tin
+    - hàm tính diện tích: chưa cài đặt
+    - hàm tính chu vi: chưa cài đặt
+
+VD 5: Class hình tam giác kế thừa class Hình
+    - biến thành phần: tên hình, các cạnh a, b, c
+    - hàm khởi tạo
+    - hàm tính diện tích: cài đặt
+    - hàm tính chu vi: cài đặt
+    - hàm In chuỗi thông tin
+    
+BT 5: Class hình chữ nhật kế thừa class Hình
+    - biến thành phần: tên hình, chiều dài, chiều rộng
+    - hàm khởi tạo
+    - hàm tính diện tích: cài đặt
+    - hàm tính chu vi: cài đặt
+    - hàm In chuỗi thông tin
+
+BT 6: Class hình tròn kế thừa class Hình
+    - biến thành phần: tên hình, bán kính
+    - hàm khởi tạo
+    - hàm tính diện tích: cài đặt
+    - hàm tính chu vi: cài đặt
+    - hàm In chuỗi thông tin
+
+VD 6: tạo danh sách chứa các đối tượng hình tam giác, hình chữ nhật, hình tròn. 
+    In ra diện tích và chu vi của các hình trong danh sách
+
+BT 7: Class Nhân viên
+    - biến thành phần: id, họ tên, ngày sinh, giới tính
+    - hàm khởi tạo
+    - hàm Tính lương: chưa cài đặt
+    - hàm In chuỗi thông tin
+
+BT 8: Class Nhân viên văn phòng kế thừa class Nhân viên
+    - biến class: mức lương cơ bản = 1,300,000 VNĐ
+    - biến thành phần: id, họ tên, ngày sinh, giới tính, hệ số lương, số ngày đi làm
+    - hàm khởi tạo
+    - hàm Tính lương: tiền lương = mức lương cơ bản x hệ số lương x (số ngày đi làm/26)
+    - hàm In chuỗi thông tin
+
+BT 9: Class Nhân viên sản xuất kế thừa class Nhân viên
+    - biến thành phần: id, họ tên, ngày sinh, giới tính, số công, đơn giá, phụ cấp làm thêm
+    - hàm khởi tạo
+    - hàm Tính lương: tiền lương = số công x đơn giá + phụ cấp làm thêm
+    - hàm In chuỗi thông tin
+
+*BT 10: Class Phòng ban
+    - biến thành phần: id, mã phòng ban, tên phòng ban, 
+        danh sách các nhân viên (class Nhân viên của BT 2)
+    - hàm khởi tạo
+    - hàm In danh sách nhân viên
+    - hàm Xuất tổng lương
+    - hàm Xuất danh sách nhân viên có lương lớn nhất
+    - hàm Thêm một nhân viên mới
+    - hàm Xóa một nhân viên
+    - hàm Sửa thông tin của một nhân viên
+
+*BT 11: viết ứng dụng quản lý danh sách nhân viên của các phòng ban trong một công ty
+    - viết theo module/package
+    
