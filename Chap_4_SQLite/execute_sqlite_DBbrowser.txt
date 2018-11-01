@@ -1,0 +1,17 @@
+//open dbBanDienThoai.sqlite, select tab Execute SQL
+
+select * from tblSanPham where don_gia>=10000000
+
+select * from tblSanPham where don_gia>=10000000 and ma_loai =1
+
+select * from tblSanPham where ma_loai=3 or ma_loai=4
+
+select * from tblSanPham where ma_loai not in(2,3,4)
+
+select * from tblSanPham where don_gia between 10000000 and 20000000
+
+select * from tblSanPham where ma_code like '%HD%'
+
+delete from PHONG where id=10000000
+
+update PHONG set ten ='sjfdkh' where id=2
