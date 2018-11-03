@@ -1,0 +1,21 @@
+{
+    "giao_dich_vang": [
+        {
+            "ma": "1",
+            "ngay": "2-2-2018",
+            "don_gia": 20578,
+            "so_luong": 32,
+            "loai": "9999"
+        }
+    ],
+    "giao_dich_tien_te": [
+        {
+            "mua": false,
+            "ma": "2",
+            "ngay": "3-6-2018",
+            "don_gia": 28000,
+            "so_luong": 35,
+            "loai": "EUR"
+        }
+    ]
+}
