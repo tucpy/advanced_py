@@ -81,8 +81,8 @@ class nhom_tivi ( wx.Panel ):
 
     # Virtual event handlers, overide them in your derived class
     def OnClick_Them( self, event ):
-        Ma=self.m_Ma.GetValue()
-        Ten=self.m_Ten.GetValue()
+        Ma = self.m_Ma.GetValue()
+        Ten = self.m_Ten.GetValue()
         # Mo file de lay noi dung cu
         f = open('Du_lieu/Cong_ty.json', encoding='utf-8')
         noi_dung = json.load(f)
@@ -116,7 +116,7 @@ if __name__=="__main__":
     # Hien thi noi dung
     for item in noi_dung['Danh_sach_Nhom_Tivi']:
         ds_nhom_tivi.append(item['Ten'])
-    panel_nhom_tivi.m_lstDSNhom.AppendItems(ds_nhom_tivi)
+    #panel_nhom_tivi.m_lstDSNhom.AppendItems(ds_nhom_tivi)
 
     frame.Show(True)
     app.MainLoop()

@@ -24,7 +24,7 @@ class Cong_ty ( wx.Panel ):
         gbSizer1.SetFlexibleDirection( wx.BOTH )
         gbSizer1.SetNonFlexibleGrowMode( wx.FLEX_GROWMODE_SPECIFIED )
 
-        self.m_bitmap1 = wx.StaticBitmap( self, wx.ID_ANY, wx.Bitmap( u"D:\\Python NC\\Python_NC_buoi8\\Media\\berry.jpg", wx.BITMAP_TYPE_ANY ), wx.DefaultPosition, wx.Size( 600,300 ), 0 )
+        self.m_bitmap1 = wx.StaticBitmap( self, wx.ID_ANY, wx.Bitmap( u"Media/berry.jpg", wx.BITMAP_TYPE_ANY ), wx.DefaultPosition, wx.Size( 600,300 ), 0 )
         gbSizer1.Add( self.m_bitmap1, wx.GBPosition( 0, 0 ), wx.GBSpan( 1, 2 ), wx.ALL, 5 )
 
         self.m_staticText1 = wx.StaticText( self, wx.ID_ANY, u"Tên", wx.DefaultPosition, wx.DefaultSize, 0 )
