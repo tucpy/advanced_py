@@ -12,13 +12,24 @@
     ],
     "VIP_01": [
         {
-            "ID": "1",
-            "Don_gia": "85000",
-            "So_Khach_Toi_da": "20",
-            "Ten": "VIP 01",
+            "ID": "1A",
+            "Ten": "VIP_01",
+            "Ma_so": "VIP_01",
             "ID_LOAI_PHONG": "1",
-            "Trang_thai": "CO_KHACH",
-            "Ma_so": "VIP_01"
+            "Don_gia": "85000",
+            "So_khach_toi_da": "20",
+            "Trang_thai": "CO_KHACH"
+        }
+    ],
+    "VG": [
+        {
+            "ID": "VIP_05",
+            "Ten": "VIP_05",
+            "Ma_so": "VG",
+            "ID_LOAI_PHONG": "3",
+            "Don_gia": "50000",
+            "So_khach_toi_da": "10",
+            "Trang_thai": "CON_TRONG"
         }
     ]
 }
