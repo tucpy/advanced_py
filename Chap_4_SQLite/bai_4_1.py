@@ -22,7 +22,7 @@ while tiep_tuc:
             print('Khong co san pham nao')
     
     elif chon == 2:
-        giatriTim = input('Nhap ten can tim')
+        giatriTim = input('Nhap ten can tim: ')
         dsSanPham = TimKiemSanPham(giatriTim)
         if len(dsSanPham) > 0:
             for item in dsSanPham:

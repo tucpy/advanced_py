@@ -1,4 +1,4 @@
-from thuvien.quan_ly_giao_dich import *
+from thu_vien.quan_ly_giao_dich import *
 
 print("Quản lý giao dịch:")
 list_vang = []

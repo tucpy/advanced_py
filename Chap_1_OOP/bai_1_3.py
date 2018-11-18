@@ -1,4 +1,4 @@
-from thuvien.CD import *
+from thu_vien.CD import *
 
 #Tao file CD.py nam trong folder thuvien
 
